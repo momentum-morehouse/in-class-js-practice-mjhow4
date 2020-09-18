@@ -40,11 +40,10 @@ function evens(array) {
           
         }
        i++;
-    } return newArray;
+    } // return newArray;
+      console.log(newArray);
   }
-
   evens([4, 37, 18, 29, 52, 103, 22]);
-
 //Problem 4
 // write a function called five that takes a word and prints it in the console
 // five times
@@ -73,7 +72,8 @@ function shortWords(array) {
           
         }
        i++;
-    } return newArray;
+    } //return newArray;
+      console.log(newArray);
   }
   
   shortWords(["basin", "pit", "cheese", "bun", "river"]);
